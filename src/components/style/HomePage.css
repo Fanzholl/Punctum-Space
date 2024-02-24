@@ -1,0 +1,111 @@
+.StartContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StartInfo {
+    width: 900px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(245, 222, 179, 0.1);
+}
+
+.InfoBackground {
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('../../images/Gwent.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.InfoReg {
+    width: 396px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.InfoRegFlex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoReg h1 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.InfoReg input {
+    width: 260px;
+    height: 40px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    user-select: none;
+    background-color: black;
+}
+
+.InfoReg button {
+    width: auto;
+    height: 40px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+    background-color: RGB(255, 255, 255, 0);
+}
+
+.InfoReg button:hover {
+    background-color: RGB(255, 255, 255, 0.1);
+}
+
+.InfoReset {
+    width: 100%;
+    display: block;
+}
+
+.InfoReset p {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding-bottom: 4px;
+}
+
+.InfoReset p:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    position: relative;
+}

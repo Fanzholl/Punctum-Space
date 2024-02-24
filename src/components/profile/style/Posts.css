@@ -1,0 +1,13 @@
+.Posts {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.Posti {
+    font-size: 30px;
+    font-family: "Playfair Display SC", serif;
+    font-style: italic;
+    color: white;
+    user-select: none;
+}

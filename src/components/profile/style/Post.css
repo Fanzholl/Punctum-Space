@@ -1,0 +1,53 @@
+.Post {
+    width: 100%;
+    /* min-height: 300px; */
+    margin-top: 20px;
+    padding: 10px 14px;
+    border: 2px solid RGB(255, 255, 255, 0.3);
+    border-radius: 6px;
+    background-color: RGB(255, 255, 255, 0.1);
+}
+
+.Post:first-child {
+    margin-top: 0;
+}
+
+.PostTitle {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.PostText {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    color: rgb(255, 255, 255, 0.9);
+    padding: 10px 0 10px 0;
+    white-space: pre-wrap;
+}
+
+.PostImage {
+    width: calc(100% / 3 - 14px);
+    max-height: 400px;
+    margin-right: 21px;
+    object-fit: cover;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.PostImage:last-child {
+    margin-right: 0;
+}
+
+.PostImagesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostTime {
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: right;
+}

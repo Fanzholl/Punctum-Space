@@ -1,0 +1,200 @@
+.Profile {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.UserProfile {
+    max-width: 1200px;
+    height: auto;
+    padding: 20px 30px;
+    /* border: 2px solid RGB(255, 255, 255, 0.6); */
+    border-radius: 10px;
+    /* background-color: RGB(255, 255, 255, 0.1); */
+}
+
+.UserProfileLabelInfo {
+    margin: auto;
+}
+
+.uploadAvatar {
+    width: 300px;
+    height: 300px;
+    outline: none;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.deleteAvatar {
+    width: 140px;
+    height: 40px;
+    display: none;
+    color: white;
+    position: absolute;
+    left: 1.6%;
+    bottom: 1.6%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+    z-index: 1;
+    background-color: RGB(0, 0, 0, 0.4);
+}
+
+.sendAvatar {
+    width: 140px;
+    height: 40px;
+    display: none;
+    color: white;
+    position: absolute;
+    right: 1.6%;
+    bottom: 1.6%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+    z-index: 1;
+    background-color: RGB(0, 0, 0, 0.4);
+}
+
+.sendAvatar:hover {
+    background-color: RGB(0, 0, 0, 0.9);
+}
+
+.deleteAvatar:hover {
+    background-color: RGB(0, 0, 0, 0.9);
+}
+
+.pImg {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 10px 30px 20px 0px;
+    border: 2px solid RGB(255, 255, 255, 0.6);
+    border-radius: 10px;
+    background-image: url(../../images/Ciri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.UserData {
+    width: auto;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 0px 20px 0;
+    /* background-color: red; */
+}
+
+.Inicials {
+    color: white;
+    font-family: "Playfair Display SC", serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.Data {
+    color: rgb(255, 255, 255, 0.9);
+    font-family: "Playfair Display SC", serif;
+    font-style: italic;
+    font-size: 36px;
+    user-select: none;
+}
+
+.Login {
+    color: rgb(255, 255, 255, 0.9);
+    font-family: "Playfair Display SC", serif;
+    font-size: 24px;
+    user-select: none;
+}
+
+.TextAreaContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.UserProfileLabelInfo textarea {
+    width: 100%;
+    height: 100%;
+    padding: 10px 14px;
+    cursor: pointer;
+    resize: none;
+    outline: none;
+    color: white;
+    scrollbar-width: none;
+    border: 2px solid RGB(255, 255, 255, 0.3);
+    font-size: 24px;
+    border-radius: 6px;
+    background-color: RGB(255, 255, 255, 0.1);
+}
+
+.UserProfileLabelInfo textarea:focus {
+    border: 2px solid RGB(255, 255, 255, 0.8);
+}
+
+.TextAreaContainerSubmitButton {
+    width: 160px;
+    height: 40px;
+    display: none;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+    background-color: RGB(255, 255, 255, 0);
+}
+
+.TextAreaContainerSubmitButton:hover {
+    background-color: RGB(255, 255, 255, 0.1);
+}
+
+.TextAreaContainerUnSubmitButton {
+    width: 160px;
+    height: 40px;
+    display: none;
+    color: white;
+    position: absolute;
+    right: 180px;
+    bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.25s;
+    background-color: RGB(255, 255, 255, 0);
+}
+
+.TextAreaContainerUnSubmitButton:hover {
+    background-color: RGB(255, 255, 255, 0.1);
+}
